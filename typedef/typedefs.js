@@ -27,3 +27,4 @@
  * @property {string} site
  */
 
+module.exports ={ types :true}
