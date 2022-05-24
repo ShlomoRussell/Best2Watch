@@ -46,6 +46,7 @@ function deleteMovie(id) {
   if (index === false) return false;
   movies.splice(index, 1);
   write(movies);
+  return true
 }
 
 function deleteActor(id, actor) {
